@@ -50,7 +50,7 @@ Per mappare le parti di corridoio abbiamo utilizzato turtlebot3_teleop, ovviamen
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch
 $ rosrun rviz rviz -d `rospack find turtlebot3_slam`rviz/turtlebot3_slam.rviz
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-$ rosrun map_server map_saver -f $HOME/homework2/mappa
+$ rosrun map_server map_saver -f $HOME/snukne/catkin_ws/src/homework2/mappaCv1Dx
 ```
 Matteo Mainenti <br>
 ![alt text](media/mappacv1sx.png "mappa piano")<br>
@@ -62,7 +62,7 @@ Andrea Faggion <br>
 Per la navigazione autonoma è stato usato turtlebot3_navigation.
 
 ```sh
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/homework2/mappa/mappacv1sx.yaml
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/home/snukne/catkin_ws/src/homework2/mappacv1sx.yaml
 $ rosrun rviz rviz -d `rospack find turtlebot3_navigation`rviz/turtlebot3_nav.rviz
 ```
 
