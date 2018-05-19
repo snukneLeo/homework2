@@ -70,3 +70,6 @@ Video del progetto  risultante, contenente tutte e tre le parti, sottostante
 
 ### Filmato
 [![video](inserisci link qua)
+
+Info <b>Licenza</b>: <br>
+[View License](https://github.com/snukneLeo/homework2/blob/master/LICENSE)
