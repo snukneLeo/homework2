@@ -62,7 +62,7 @@ Andrea Faggion <br>
 Per la navigazione autonoma è stato usato turtlebot3_navigation.
 
 ```sh
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/home/snukne/catkin_ws/src/homework2/mappacv1sx.yaml
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/home/snukne/catkin_ws/src/homework2/mappaCv1Dx.yaml
 $ rosrun rviz rviz -d `rospack find turtlebot3_navigation`rviz/turtlebot3_nav.rviz
 ```
 
