@@ -57,7 +57,7 @@ Matteo Mainenti <br>
 Leonardo Testolin <br>
 ![alt text](media/parteDxCv1.png "mappa piano")<br>
 Andrea Faggion <br>
-![alt text](media/parteDxCv1.png "mappa piano")<br>
+![alt text](media/mappa_giardino.png "mappa piano")<br>
 
 Per la navigazione autonoma è stato usato turtlebot3_navigation.
 
