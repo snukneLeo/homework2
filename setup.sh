@@ -1,9 +1,11 @@
 #!/bin/bash
 
-cd ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazeboturtlebot3_gazebo
-cp worldGazebo/cv1.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/.
-cp launch/turtlebot3_cv1.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
-#cp -r ca_vignal_2 ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+#cd ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo
+cp worldGazebo/cv1.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/
+cp launch/turtlebot3_cv1.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/
+mkdir ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_cv1
+cp -r modelCv1/model.config ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_cv1
+cp -r modelCv1/model.sdf ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_cv1
 
 echo "Select model..."
 export TURTLEBOT3_MODEL=waffle
