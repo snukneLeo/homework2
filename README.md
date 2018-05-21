@@ -31,12 +31,12 @@ Per lanciarlo eseguire il comando
 ```sh
 $ ./setup.sh
 ```
-dopodichè per iniziare la simulazione bisogna eseguire le seguenti istruzioni:
+dove verranno eseguite le seguenti istruzioni:
 ```sh
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_cv1.launch
 ```
-Per la navigazione autonoma:
+Per la navigazione autonoma aprire un altro terminale e digitare:
 ```sh
 $ roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
 ```
@@ -61,7 +61,7 @@ Andrea Faggion <br>
 Per la navigazione autonoma è stato usato turtlebot3_navigation.
 
 ```sh
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/home/snukne/catkin_ws/src/homework2/mappaCv1Dx.yaml
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/src/homework2/mappaCv1Dx.yaml
 $ rosrun rviz rviz -d `rospack find turtlebot3_navigation`rviz/turtlebot3_nav.rviz
 ```
 
