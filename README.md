@@ -26,10 +26,10 @@ Ci siamo spartiti i compiti nel ruolo indicato, ognuno ha costruito la propria p
 
 ### Installazione
 Clonare il seguente repository:
-
+```sh
 $ git clone https://github.com/snukneLeo/homework2
-
-Come da richiesta è stato creato il file di setup  presente sulla repository principale.
+```
+Come da richiesta è stato creato il file di setup  presente sulla repository principale.<br>
 Per lanciarlo posizionarsi nella directory homework2 ed eseguire il comando:
 ```sh
 $ ./setup.sh
