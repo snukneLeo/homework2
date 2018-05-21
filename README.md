@@ -25,18 +25,21 @@ Ci siamo spartiti i compiti nel ruolo indicato, ognuno ha costruito la propria p
 
 
 ### Installazione
+Clonare il seguente repository:
+
+$ git clone https://github.com/snukneLeo/homework2
 
 Come da richiesta è stato creato il file di setup  presente sulla repository principale.
-Per lanciarlo eseguire il comando
+Per lanciarlo posizionarsi nella directory homework2 ed eseguire il comando:
 ```sh
 $ ./setup.sh
 ```
-dove verranno eseguite le seguenti istruzioni:
+dopodichè per iniziare la simulazione bisogna eseguire le seguenti istruzioni:
 ```sh
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_cv1.launch
 ```
-Per la navigazione autonoma aprire un altro terminale e digitare:
+Per la navigazione autonoma:
 ```sh
 $ roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
 ```
